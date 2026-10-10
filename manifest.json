@@ -1,12 +1,20 @@
 {
-    "name": "Course Evaluation",
-    "version": "1.0",
-    "description": "Fuck Course Evaluation",
-    "manifest_version": 2,
-
-    "content_scripts": [{
-        "matches": ["http://jwxk.ucas.ac.cn/*"],
-        "css": [],
-        "js": ["autofill.js"]
-    }]
+  "name": "Course Evaluation",
+  "version": "1.1",
+  "description": "辅助填写 UCAS 课程与教师评价表单",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": [
+        "http://jwxk.ucas.ac.cn/*",
+        "https://jwxk.ucas.ac.cn/*",
+        "http://xkcts.ucas.ac.cn/*",
+        "https://xkcts.ucas.ac.cn/*"
+      ],
+      "css": [],
+      "js": [
+        "autofill.js"
+      ]
+    }
+  ]
 }
