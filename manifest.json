@@ -1,6 +1,6 @@
 {
   "name": "Course Evaluation",
-  "version": "1.1",
+  "version": "1.2",
   "description": "辅助填写 UCAS 课程与教师评价表单",
   "manifest_version": 3,
   "content_scripts": [
@@ -8,8 +8,10 @@
       "matches": [
         "http://jwxk.ucas.ac.cn/*",
         "https://jwxk.ucas.ac.cn/*",
-        "http://xkcts.ucas.ac.cn/*",
-        "https://xkcts.ucas.ac.cn/*"
+        "http://xkcts.ucas.ac.cn/evaluate/evaluateCourse/*",
+        "https://xkcts.ucas.ac.cn/evaluate/evaluateCourse/*",
+        "http://xkcts.ucas.ac.cn/evaluate/evaluateTeacher/*",
+        "https://xkcts.ucas.ac.cn/evaluate/evaluateTeacher/*"
       ],
       "css": [],
       "js": [
